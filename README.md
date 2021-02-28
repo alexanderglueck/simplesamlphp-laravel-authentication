@@ -1,6 +1,11 @@
-# SimpleSAMLphp Laravel Authentication __(simplesamlphp-laravel-authentication)__
+# SimpleSAMLphp password_verify Authentication _(simplesamlphp-password-verify-authentication)_
 
-> sqlauth module adopted to support hashed passwords
+> SimpleSAMLphp sqlauth module adopted to support hashed passwords
+
+## Why?
+
+I created this repository because I needed to connect SimpleSAMLphp to a Laravel users table.  
+The default sqlauth module did not include a password_verify check.
 
 ## Prerequisite
 
